@@ -1,24 +1,70 @@
-# aws
+# Cloud Infrastructure Platform
 
-How will you create a serverless application(means don't want create any infra or manage server-based apps -> Aws Lamda
+Cloud and infrastructure related topics organized across platform, container and infrastructure areas.
 
-How to store username, password in production -> using cloud key-vault
+The objective of this repository is to keep infrastructure related concepts grouped in one place instead of spreading notes across multiple repositories.
 
+## Repository Structure
 
+```text
+cloud-infrastructure-platform/
 
----
+aws/
+container-registry/
+docker/
+infrastructure/
+kubernetes/
+networking/
+observability/
+security/
+storage/
+terraform/
+```
 
-<img width="1287" alt="image" src="https://github.com/abhijitxroy/aws/assets/161963891/88371676-80e9-434f-9017-4e704e1cff2f">
+## Current Areas
 
-<img width="1604" alt="image" src="https://github.com/abhijitxroy/aws/assets/161963891/c5f646c0-0abe-4e0e-bd5e-a08caebd98e3">
+### AWS
 
-<img width="1420" alt="image" src="https://github.com/abhijitxroy/aws/assets/161963891/7d3edb70-bf2f-42cd-84ea-b2d8f1073d57">
+Current topics:
 
-<img width="1530" alt="image" src="https://github.com/abhijitxroy/aws/assets/161963891/f50254c5-ae4c-4da2-a835-9126df45efef">
+- IAM
+- EC2
+- Cloud fundamentals
 
-<img width="1431" alt="image" src="https://github.com/abhijitxroy/aws/assets/161963891/2cb2b00f-dce7-49e8-8c90-7a13f6b86878">
+Areas organized under AWS:
 
-<img width="1490" alt="image" src="https://github.com/abhijitxroy/aws/assets/161963891/c21e972c-607a-4746-a196-b17c48be19a2">
+- Fundamentals
+- Certification reference material
 
-1. IAM - Users, Groups, Policies
-2. 
+### Container Platform
+
+Areas planned and maintained around container ecosystem topics.
+
+Examples:
+
+- Docker
+- Kubernetes
+- Container registry
+- Container lifecycle concepts
+
+### Infrastructure
+
+Areas planned around infrastructure topics.
+
+Examples:
+
+- Networking
+- Security
+- Storage
+- Observability
+- Infrastructure patterns
+
+### Terraform
+
+Infrastructure as Code related area reserved for future organization.
+
+## Why this repository exists
+
+Infrastructure topics usually expand across multiple technologies and operational areas.
+
+The goal here is to keep infrastructure related concepts organized in a structure that remains easier to maintain over time.
