@@ -1,11 +1,42 @@
 # Storage
 
-Storage related topics planned for future organization under infrastructure and cloud areas.
+Storage related topics organized across infrastructure and platform engineering areas.
 
-Potential areas:
+## Repository Structure
 
-- Object storage concepts
-- Persistence fundamentals
-- Storage basics
+```text
+storage/
 
-Content will be expanded gradually as infrastructure related topics are organized.
+fundamentals/
+object-storage/
+block-storage/
+persistence/
+backup-recovery/
+distributed-storage/
+```
+
+## Areas
+
+### Fundamentals
+
+Core storage concepts and foundational understanding.
+
+### Object Storage
+
+Object based storage systems and usage models.
+
+### Block Storage
+
+Persistent block storage concepts.
+
+### Persistence
+
+Application persistence and storage lifecycle concepts.
+
+### Backup Recovery
+
+Data protection and recovery related topics.
+
+### Distributed Storage
+
+Storage models designed for distributed infrastructure environments.
