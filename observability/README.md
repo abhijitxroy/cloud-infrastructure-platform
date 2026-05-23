@@ -1,12 +1,42 @@
 # Observability
 
-Observability related topics planned for future organization under infrastructure and platform engineering areas.
+Observability related topics organized across infrastructure, platform engineering and operational environments.
 
-Potential areas:
+## Repository Structure
 
-- Logging
-- Monitoring
-- Metrics
-- Tracing concepts
+```text
+observability/
 
-Content will be expanded gradually as operational and platform related topics are organized.
+fundamentals/
+logging/
+monitoring/
+metrics/
+tracing/
+alerting/
+```
+
+## Areas
+
+### Fundamentals
+
+Core observability concepts and foundational understanding.
+
+### Logging
+
+Application and infrastructure logging related concepts.
+
+### Monitoring
+
+Operational monitoring and system visibility concepts.
+
+### Metrics
+
+Measurement and operational indicator related topics.
+
+### Tracing
+
+Distributed tracing and request visibility concepts.
+
+### Alerting
+
+Operational alerting and notification related areas.
