@@ -1,12 +1,42 @@
 # Security
 
-Security related topics planned for future organization under infrastructure and platform engineering areas.
+Security related topics organized across infrastructure, platform engineering and operational environments.
 
-Potential areas:
+## Repository Structure
 
-- Access management
-- Secrets handling
-- Infrastructure security
-- Container security concepts
+```text
+security/
 
-Content will be added gradually as implementation patterns and operational areas are organized.
+fundamentals/
+container-security/
+secrets-management/
+compliance/
+scanning/
+access-control/
+```
+
+## Areas
+
+### Fundamentals
+
+Core security concepts and foundational understanding.
+
+### Container Security
+
+Container workload protection and runtime security concepts.
+
+### Secrets Management
+
+Credential protection and secure configuration approaches.
+
+### Compliance
+
+Security validation and compliance related concepts.
+
+### Scanning
+
+Security assessment and vulnerability identification concepts.
+
+### Access Control
+
+Identity, authorization and access management related areas.
