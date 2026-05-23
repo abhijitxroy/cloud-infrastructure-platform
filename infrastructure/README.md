@@ -1,10 +1,42 @@
 # Infrastructure
 
-Infrastructure related concepts that do not belong to a specific technology area.
+Infrastructure related topics organized across platform engineering and operational environments.
 
-Planned areas:
+## Repository Structure
 
-- Networking fundamentals
-- Security basics
-- Infrastructure patterns
-- Platform operations
+```text
+infrastructure/
+
+fundamentals/
+reliability/
+scaling/
+high-availability/
+capacity-planning/
+resilience/
+```
+
+## Areas
+
+### Fundamentals
+
+Core infrastructure concepts and foundational understanding.
+
+### Reliability
+
+Operational reliability and infrastructure stability concepts.
+
+### Scaling
+
+Infrastructure growth and workload scaling patterns.
+
+### High Availability
+
+Availability design and operational continuity concepts.
+
+### Capacity Planning
+
+Infrastructure sizing and operational planning concepts.
+
+### Resilience
+
+Failure recovery and operational resilience patterns.
