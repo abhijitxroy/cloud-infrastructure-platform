@@ -1,8 +1,8 @@
 # Cloud Infrastructure Platform
 
-Cloud and infrastructure related topics organized across platform, container and infrastructure areas.
+Cloud, infrastructure and platform engineering related topics organized across infrastructure foundations, cloud services, container ecosystems and operational engineering areas.
 
-The objective of this repository is to keep infrastructure related concepts grouped in one place instead of spreading notes across multiple repositories.
+The objective of this repository is to keep infrastructure related concepts organized in one place instead of spreading operational knowledge across multiple repositories.
 
 ## Repository Structure
 
@@ -21,24 +21,24 @@ storage/
 terraform/
 ```
 
-## Current Areas
+## Areas
 
 ### AWS
 
-Current topics:
+Cloud platform concepts and foundational cloud services.
+
+Examples:
 
 - IAM
 - EC2
 - Cloud fundamentals
+- Certification reference materials
 
-Areas organized under AWS:
+---
 
-- Fundamentals
-- Certification reference material
+### Container Ecosystem
 
-### Container Platform
-
-Areas planned and maintained around container ecosystem topics.
+Container platform related concepts and operational areas.
 
 Examples:
 
@@ -47,24 +47,69 @@ Examples:
 - Container registry
 - Container lifecycle concepts
 
-### Infrastructure
+---
 
-Areas planned around infrastructure topics.
+### Infrastructure Engineering
+
+Infrastructure related operational and engineering concepts.
 
 Examples:
 
 - Networking
 - Security
 - Storage
-- Observability
-- Infrastructure patterns
+- Infrastructure reliability
+- Scaling patterns
+- Capacity planning
 
-### Terraform
+---
 
-Infrastructure as Code related area reserved for future organization.
+### Observability
+
+Operational visibility and system understanding concepts.
+
+Examples:
+
+- Logging
+- Monitoring
+- Metrics
+- Distributed tracing
+- Alerting
+
+---
+
+### Infrastructure as Code
+
+Infrastructure provisioning and configuration management concepts.
+
+Examples:
+
+- Terraform fundamentals
+- Providers
+- State management
+- Modules
+- Infrastructure workflows
+
+---
+
+## Engineering Areas Covered
+
+Examples:
+
+- Cloud infrastructure
+- Container platforms
+- Infrastructure reliability
+- Operational visibility
+- Security foundations
+- Infrastructure provisioning
+- Platform engineering concepts
+
+---
 
 ## Why this repository exists
 
-Infrastructure topics usually expand across multiple technologies and operational areas.
+Infrastructure knowledge commonly expands across cloud systems, networking, containers, provisioning systems and operational engineering areas.
 
-The goal here is to keep infrastructure related concepts organized in a structure that remains easier to maintain over time.
+The goal of this repository is to organize infrastructure concepts in a structure that remains maintainable, scalable and easier to evolve over time.
+
+Knowledge in this repository grows gradually through engineering experience, experimentation and continuous learning.
