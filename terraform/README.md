@@ -1,12 +1,42 @@
 # Terraform
 
-Infrastructure as Code related topics planned for future organization under infrastructure and platform engineering areas.
+Terraform related topics organized across infrastructure and platform engineering areas.
 
-Potential areas:
+## Repository Structure
 
-- Infrastructure provisioning concepts
-- State management fundamentals
-- Module organization
-- Infrastructure lifecycle concepts
+```text
+terraform/
 
-Content will be expanded gradually as Infrastructure as Code related topics are organized.
+fundamentals/
+providers/
+resources/
+state-management/
+modules/
+workflows/
+```
+
+## Areas
+
+### Fundamentals
+
+Core Terraform concepts and infrastructure as code foundations.
+
+### Providers
+
+Cloud and infrastructure provider integration concepts.
+
+### Resources
+
+Infrastructure resource management and provisioning concepts.
+
+### State Management
+
+Infrastructure state lifecycle and operational management.
+
+### Modules
+
+Reusable infrastructure component patterns.
+
+### Workflows
+
+Infrastructure provisioning and operational workflow concepts.
