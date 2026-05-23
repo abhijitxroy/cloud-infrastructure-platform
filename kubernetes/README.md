@@ -1,5 +1,17 @@
 # Kubernetes
 
-Kubernetes concepts organized to build understanding around container orchestration, deployment workflow and platform level operations.
+Kubernetes related topics organized under infrastructure and platform engineering areas.
 
-This section will gradually expand around areas that are useful from infrastructure and platform engineering perspective.
+## Repository Structure
+
+```text
+kubernetes/
+
+fundamentals/
+control-plane/
+worker-node/
+objects/
+operations/
+installation/
+tooling/
+architecture/
