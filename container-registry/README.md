@@ -1,11 +1,37 @@
 # Container Registry
 
-Container registry related topics planned for future organization under infrastructure and platform engineering areas.
+Container registry related topics organized across infrastructure and platform engineering areas.
 
-Potential areas:
+## Repository Structure
 
-- Registry fundamentals
-- Image lifecycle concepts
-- Artifact handling basics
+```text
+container-registry/
 
-Content will be expanded gradually as container related operational topics are organized.
+fundamentals/
+image-lifecycle/
+security/
+distribution/
+operations/
+```
+
+## Areas
+
+### Fundamentals
+
+Core container registry concepts and foundational understanding.
+
+### Image Lifecycle
+
+Container image movement and lifecycle related concepts.
+
+### Security
+
+Registry protection and image security related areas.
+
+### Distribution
+
+Artifact movement and distribution workflow concepts.
+
+### Operations
+
+Operational management and registry lifecycle concepts.
