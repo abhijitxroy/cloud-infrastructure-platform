@@ -81,6 +81,19 @@
 - Registry Operations
 - Registry Security
 
+### Docker
+
+- Docker Overview
+- Image Lifecycle
+- Container Lifecycle
+- Dockerfile Basics
+- Networking Basics
+- Volumes
+- Docker Compose Overview
+- Container Health
+- Logging
+- Container Registry
+
 ---
 
 ## Current Repository Coverage
@@ -88,7 +101,7 @@
 ### Completed Areas
 
 - AWS Foundation
-- Docker Fundamentals
+- Docker Foundation
 - Container Registry Foundation
 - Infrastructure Fundamentals
 - Kubernetes Foundation
@@ -106,7 +119,8 @@
 2. Kubernetes Advanced Topics
 3. Observability Deep Dive
 4. Security Deep Dive
-5. Infrastructure Foundation
+5. Docker Foundation Release
+6. Infrastructure Foundation
 
 ---
 
@@ -179,9 +193,11 @@
 - Security Foundation
 - Storage Foundation
 - Container Registry Foundation
+- Docker Foundation
 
 ### Upcoming
 
 - AWS Services Expansion
 - Kubernetes Advanced Foundation
+- Docker Foundation
 - Infrastructure Foundation

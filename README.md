@@ -48,6 +48,7 @@ Primary focus areas include:
 - AWS Cloud Infrastructure
 - Terraform and Infrastructure as Code
 - Docker and Container Platforms
+- Dockerfile and Compose Workflows
 - Container Registry Engineering
 - Kubernetes Architecture and Operations
 - Infrastructure Networking
@@ -109,6 +110,15 @@ cloud-infrastructure-platform
 │   ├── operations/
 │   └── security/
 ├── docker/
+│   ├── fundamentals/
+│   ├── images/
+│   ├── containers/
+│   ├── dockerfile/
+│   ├── networking/
+│   ├── storage/
+│   ├── compose/
+│   ├── operations/
+│   └── registry/
 ├── infrastructure/
 ├── kubernetes/
 │   ├── architecture/
@@ -181,7 +191,7 @@ Reliability Engineering
 | Networking | ⭐⭐⭐⭐⭐ | DNS, routing, load balancing, protocols, security |
 | Security | ⭐⭐⭐⭐⭐ | IAM, access control, encryption, secrets management, network security |
 | Observability | ⭐⭐⭐⭐⭐ | Monitoring, metrics, logging, tracing, reliability |
-| Docker | ⭐⭐⭐⭐ | Container packaging and runtime |
+| Docker | ⭐⭐⭐⭐⭐ | Container runtime, packaging, networking, storage, operations |
 | Container Registry | ⭐⭐⭐⭐ | Artifact storage, image distribution, software supply chain |
 | Storage | ⭐⭐⭐⭐ | Persistent data and platform storage |
 
@@ -215,11 +225,16 @@ Grafana
 SLI/SLO/SLA
 Network Security
 Container Security
-Security Scanning
+Dockerfile
+Docker Networking
+Docker Volumes
+Docker Compose
 
 Tier 3 (Good To Know)
 Container Registry Fundamentals
 Image Lifecycle
+Container Health
+Container Logging
 Registry Security
 Infrastructure Reliability
 Platform Operations

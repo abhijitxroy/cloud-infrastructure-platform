@@ -6,6 +6,67 @@ The format is based on maintaining meaningful learning and repository milestones
 
 ---
 
+## v1.9.0 - Docker Foundation
+
+### Added
+
+#### Fundamentals
+
+- Docker Overview
+
+#### Images
+
+- Image Lifecycle
+
+#### Containers
+
+- Container Lifecycle
+
+#### Dockerfile
+
+- Dockerfile Basics
+
+#### Networking
+
+- Networking Basics
+
+#### Storage
+
+- Volumes
+
+#### Compose
+
+- Docker Compose Overview
+
+#### Operations
+
+- Container Health
+- Logging
+
+#### Registry
+
+- Container Registry
+
+### Impact
+
+Established a comprehensive Docker foundation covering:
+
+- Docker Fundamentals
+- Container Images
+- Container Lifecycle Management
+- Dockerfile Engineering
+- Container Networking
+- Persistent Storage
+- Docker Compose Workflows
+- Container Health Monitoring
+- Container Logging
+- Registry Integration
+- Production Container Operations
+
+This milestone provides production-oriented Docker knowledge for cloud engineering, platform engineering, Kubernetes foundations, CI/CD systems, containerized applications, cloud-native infrastructure, operational troubleshooting, and interview preparation.
+
+---
+
 ## v1.8.0 - Container Registry Foundation
 
 ### Added

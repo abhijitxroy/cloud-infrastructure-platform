@@ -85,9 +85,12 @@ This section primarily owns:
 - Docker fundamentals
 - container runtime engineering
 - container image systems
+- Dockerfile engineering
 - container lifecycle management
 - Docker networking
+- Docker Compose workflows
 - container storage systems
+- container registry integration
 - Docker operational workflows
 - workload isolation systems
 - container operational reliability
@@ -292,8 +295,11 @@ This section focuses heavily on:
 - container runtime engineering
 - operational container reliability
 - image lifecycle management
+- Dockerfile engineering
+- multi-container workflows
 - workload isolation systems
 - container networking
+- container registry integration
 - production container troubleshooting
 - runtime observability
 - container portability
@@ -374,11 +380,14 @@ This section is intended to evolve into a long-term container engineering knowle
 
 - container runtime systems
 - image engineering
+- Dockerfile engineering
+- multi-container workflows
 - workload isolation
 - operational container reliability
 - infrastructure portability
 - container networking
 - container storage systems
+- container registry integration
 - runtime troubleshooting
 - scalable container operations
 - infrastructure packaging workflows
