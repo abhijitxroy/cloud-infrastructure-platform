@@ -48,6 +48,7 @@ Primary focus areas include:
 - AWS Cloud Infrastructure
 - Terraform and Infrastructure as Code
 - Docker and Container Platforms
+- Container Registry Engineering
 - Kubernetes Architecture and Operations
 - Infrastructure Networking
 - Storage Engineering
@@ -102,6 +103,11 @@ cloud-infrastructure-platform
 │   ├── monitoring/
 │   └── certification/
 ├── container-registry/
+│   ├── fundamentals/
+│   ├── distribution/
+│   ├── image-lifecycle/
+│   ├── operations/
+│   └── security/
 ├── docker/
 ├── infrastructure/
 ├── kubernetes/
@@ -150,6 +156,8 @@ Terraform
         ↓
 Docker
         ↓
+Container Registry
+        ↓
 Kubernetes
         ↓
 Networking
@@ -174,6 +182,7 @@ Reliability Engineering
 | Security | ⭐⭐⭐⭐⭐ | IAM, access control, encryption, secrets management, network security |
 | Observability | ⭐⭐⭐⭐⭐ | Monitoring, metrics, logging, tracing, reliability |
 | Docker | ⭐⭐⭐⭐ | Container packaging and runtime |
+| Container Registry | ⭐⭐⭐⭐ | Artifact storage, image distribution, software supply chain |
 | Storage | ⭐⭐⭐⭐ | Persistent data and platform storage |
 
 ### Interview Priority Order
@@ -209,12 +218,9 @@ Container Security
 Security Scanning
 
 Tier 3 (Good To Know)
-Block Storage
-Object Storage
-Distributed Storage
-Persistence Models
-Backup And Recovery
-Container Registry
+Container Registry Fundamentals
+Image Lifecycle
+Registry Security
 Infrastructure Reliability
 Platform Operations
 Distributed Tracing

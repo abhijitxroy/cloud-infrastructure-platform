@@ -73,7 +73,13 @@
 - Persistence Models
 - Backup Recovery Basics
 
----
+### Container Registry
+
+- Registry Overview
+- Artifact Distribution
+- Image Distribution
+- Registry Operations
+- Registry Security
 
 ---
 
@@ -83,15 +89,14 @@
 
 - AWS Foundation
 - Docker Fundamentals
-- Container Registry Fundamentals
+- Container Registry Foundation
 - Infrastructure Fundamentals
 - Kubernetes Foundation
 - Terraform Foundation
-- Networking Fundamentals
-- Observability Fundamentals
-- Security Fundamentals
-- Storage Foundation
+- Networking Foundation
+- Observability Foundation
 - Security Foundation
+- Storage Foundation
 
 ## Next Priorities
 
@@ -101,7 +106,7 @@
 2. Kubernetes Advanced Topics
 3. Observability Deep Dive
 4. Security Deep Dive
-5. Container Registry Expansion
+5. Infrastructure Foundation
 
 ---
 
@@ -173,9 +178,10 @@
 - Networking Foundation
 - Security Foundation
 - Storage Foundation
+- Container Registry Foundation
 
 ### Upcoming
 
 - AWS Services Expansion
 - Kubernetes Advanced Foundation
-- Container Registry Expansion
+- Infrastructure Foundation

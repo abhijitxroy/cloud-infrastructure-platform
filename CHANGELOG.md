@@ -1,10 +1,98 @@
-
-
 # Changelog
 
 All notable changes to this repository will be documented in this file.
 
 The format is based on maintaining meaningful learning and repository milestones.
+
+---
+
+## v1.8.0 - Container Registry Foundation
+
+### Added
+
+#### Fundamentals
+
+- Registry Overview
+
+#### Distribution
+
+- Artifact Distribution
+
+#### Image Lifecycle
+
+- Image Distribution
+
+#### Operations
+
+- Registry Operations
+
+#### Security
+
+- Registry Security
+
+### Impact
+
+Established a comprehensive container registry foundation covering:
+
+- Container Registry Fundamentals
+- Artifact Distribution
+- Image Lifecycle Management
+- Registry Operations
+- Registry Security
+- Software Supply Chain Foundations
+- Container Image Governance
+- Artifact Reliability
+- Image Distribution Workflows
+- Production Artifact Management
+
+This milestone provides production-oriented container registry knowledge for platform engineering, Kubernetes deployments, software delivery, artifact lifecycle management, supply chain security, cloud-native infrastructure, and interview preparation.
+
+---
+
+## v1.7.0 - Storage Foundation
+
+### Added
+
+#### Fundamentals
+
+- Storage Overview
+
+#### Block Storage
+
+- Block Storage Basics
+
+#### Object Storage
+
+- Object Storage Basics
+
+#### Distributed Storage
+
+- Distributed Storage Basics
+
+#### Persistence
+
+- Persistence Models
+
+#### Backup and Recovery
+
+- Backup Recovery Basics
+
+### Impact
+
+Established a comprehensive storage foundation covering:
+
+- Storage Fundamentals
+- Block Storage
+- Object Storage
+- Distributed Storage
+- Persistence Models
+- Backup and Recovery
+- Data Durability
+- Data Availability
+- Storage Reliability
+- Infrastructure Storage Concepts
+
+This milestone provides production-oriented storage knowledge for cloud engineering, platform engineering, Kubernetes storage, databases, distributed systems, disaster recovery planning, infrastructure operations, and interview preparation.
 
 ---
 

@@ -1,225 +1,72 @@
 # Container Registry
 
-Production-focused container registry engineering section designed around artifact storage systems, container image distribution, image lifecycle management, registry operational reliability, software supply chain engineering, image governance, and production artifact infrastructure workflows.
+## Overview
 
-This section is part of the larger cloud infrastructure platform ecosystem and acts as the primary ownership area for container registry fundamentals, image lifecycle engineering, artifact distribution systems, registry operational workflows, and production container artifact management.
+Container registries provide centralized storage, management, distribution, and lifecycle control for container images and related artifacts.
 
----
+Modern cloud-native platforms depend on container registries to support application delivery, Kubernetes deployments, CI/CD pipelines, and secure software distribution.
 
-## Vision
-
-Build a long-term container registry engineering knowledge system focused on:
-
-- container artifact systems
-- image lifecycle management
-- image distribution systems
-- software supply chain engineering
-- registry security
-- artifact operational reliability
-- image governance
-- operational registry engineering
-- production artifact troubleshooting
-- infrastructure artifact workflows
-
-The goal is not building:
-
-- Docker push/pull command cheat sheets
-- copied registry documentation
-- certification-only registry notes
-- shallow image hosting tutorials
-- isolated artifact examples without operational reasoning
-- generic container registry walkthroughs
-- command-only registry repositories
-
-The goal is building repositories that feel like:
-
-> Infrastructure engineer explaining how production container artifacts are stored, distributed, secured, governed, replicated, and operationally managed.
+Container registries are a foundational component of Docker, Kubernetes, platform engineering, and cloud infrastructure ecosystems.
 
 ---
 
-## Container Registry Philosophy
+## Why Container Registries Matter
 
-Container registries are not only image storage systems.
+Without Container Registry:
 
-Container registries are operational artifact distribution and governance systems responsible for:
+```text
+Container Images
+        ↓
+Manual Distribution
+        ↓
+Version Inconsistency
+        ↓
+Deployment Risk
+```
 
-- image lifecycle management
-- artifact distribution
-- software supply chain integrity
-- image version control
-- artifact replication
-- workload deployment consistency
-- infrastructure portability
-- operational image governance
-- artifact reliability
-- runtime deployment trust
+With Container Registry:
 
-Production container registry environments introduce significant operational complexity involving:
+```text
+Container Images
+        ↓
+Central Registry
+        ↓
+Controlled Distribution
+        ↓
+Reliable Deployment
+```
 
-- image sprawl
-- artifact inconsistency
-- registry availability issues
-- image replication failures
-- storage scalability bottlenecks
-- supply chain vulnerabilities
-- access governance challenges
-- artifact lifecycle drift
-- operational visibility gaps
-- registry debugging complexity
+Benefits:
 
-This section focuses on understanding:
-
-- why container registries exist
-- how artifact distribution systems behave operationally
-- how image lifecycle systems scale
-- where production registry systems fail
-- how engineers debug artifact delivery problems
-- how operational registry engineering impacts infrastructure reliability and deployment consistency
+- Centralized Image Management
+- Deployment Consistency
+- Version Control
+- Security Integration
+- Scalable Distribution
 
 ---
 
-## Repository Scope
-
-This section primarily owns:
-
-- container registry fundamentals
-- image lifecycle systems
-- artifact distribution systems
-- registry security foundations
-- image governance workflows
-- registry operational workflows
-- software supply chain foundations
-- artifact replication systems
-- operational registry reliability
-- production artifact troubleshooting
-- operational artifact diagnostics
-- infrastructure artifact engineering
-
----
-
-## What This Section Covers
+## Topics Covered
 
 ### Registry Fundamentals
 
-Core registry concepts, artifact lifecycle systems, image storage workflows, operational artifact management, and infrastructure distribution foundations.
+Core registry concepts, image storage, artifact management, registry architecture, and image versioning.
 
-Examples:
+### Artifact Distribution
 
-- container registries
-- image repositories
-- artifact storage
-- image tagging
-- image versioning
-- registry workflows
-- artifact lifecycle systems
+Artifact delivery, image distribution, replication concepts, environment promotion, and deployment consistency.
 
----
+### Image Lifecycle
 
-### Image Lifecycle Engineering
-
-Container image lifecycle management, image movement workflows, image promotion systems, operational image coordination, and deployment artifact consistency.
-
-Examples:
-
-- image build lifecycle
-- artifact promotion
-- image retention
-- version workflows
-- image immutability
-- lifecycle governance
-- deployment artifact workflows
-
----
-
-### Artifact Distribution Systems
-
-Distributed artifact delivery, registry replication workflows, infrastructure artifact synchronization, operational distribution reliability, and scalable image delivery systems.
-
-Examples:
-
-- registry replication
-- artifact synchronization
-- distributed image delivery
-- edge artifact distribution
-- operational distribution workflows
-- artifact caching
-
----
-
-### Registry Security
-
-Container artifact protection, image integrity systems, software supply chain visibility, vulnerability management, operational artifact trust systems, and registry governance.
-
-Examples:
-
-- image signing
-- vulnerability scanning
-- supply chain security
-- image trust systems
-- registry access control
-- artifact integrity
-- operational governance
-
----
+Image creation, storage, versioning, promotion, retention, and lifecycle governance.
 
 ### Registry Operations
 
-Operational registry management, artifact observability, registry diagnostics, operational troubleshooting, infrastructure artifact reliability, and production registry workflows.
+Registry availability, storage management, capacity planning, monitoring, and operational reliability.
 
-Examples:
+### Registry Security
 
-- registry monitoring
-- artifact diagnostics
-- operational troubleshooting
-- registry observability
-- artifact storage analysis
-- operational reliability workflows
-
----
-
-## What This Section Does NOT Cover Deeply
-
-The ecosystem intentionally avoids large-scale topic duplication across repositories.
-
-This section references other repositories contextually instead of reteaching their primary domains.
-
-### Docker Runtime Engineering
-
-Container runtime systems, workload isolation, container networking, runtime lifecycle management, and operational container workflows belong primarily to:
-
-- cloud-infrastructure-platform/docker
-
-This section discusses those topics only from artifact lifecycle and image distribution perspectives.
-
----
-
-### Kubernetes Orchestration Engineering
-
-Cluster orchestration, workload scheduling, deployment coordination, and Kubernetes operational workflows belong primarily to:
-
-- cloud-infrastructure-platform/kubernetes
-
-This section discusses those topics only from deployment artifact and registry integration perspectives.
-
----
-
-### DevSecOps and CI/CD Delivery Workflows
-
-CI/CD pipelines, release engineering, deployment automation, delivery governance, and operational release workflows belong primarily to:
-
-- devops-release-quality-engineering
-
-This section discusses those topics only from artifact lifecycle and registry operational integration perspectives.
-
----
-
-### Infrastructure Security Engineering
-
-Secrets management, workload protection, infrastructure compliance, operational security workflows, and infrastructure governance belong primarily to:
-
-- cloud-infrastructure-platform/security
-
-This section discusses those topics only from registry trust and artifact integrity perspectives.
+Access control, image scanning, image signing, integrity verification, and software supply chain security.
 
 ---
 
@@ -236,112 +83,127 @@ container-registry/
 
 ---
 
-## Engineering Focus Areas
+## Learning Path
 
-This section focuses heavily on:
-
-- artifact lifecycle engineering
-- operational registry reliability
-- software supply chain visibility
-- image governance systems
-- distributed artifact delivery
-- production registry troubleshooting
-- artifact observability
-- registry scalability engineering
-- infrastructure deployment consistency
-- operational debugging mindset
-- artifact integrity systems
-- real-world registry engineering
-
----
-
-## Production Registry Reality
-
-Production container registry systems behave very differently from tutorial image hosting environments.
-
-Real production registry systems involve:
-
-- image sprawl
-- artifact inconsistency
-- registry downtime risks
-- replication instability
-- artifact delivery bottlenecks
-- supply chain vulnerabilities
-- storage scalability constraints
-- operational visibility gaps
-- deployment consistency failures
-- artifact debugging complexity
-
-Production registry engineering requires understanding:
-
-- how artifact distribution systems scale
-- how image integrity impacts deployment reliability
-- how engineers debug artifact delivery failures
-- how registry governance improves operational consistency
-- how software supply chain visibility improves infrastructure security
-- how artifact lifecycle engineering impacts operational maturity
-
-This section prioritizes operational registry engineering understanding over registry command memorization.
+```text
+Container Images
+      ↓
+Container Registry Fundamentals
+      ↓
+Artifact Distribution
+      ↓
+Image Lifecycle
+      ↓
+Registry Operations
+      ↓
+Registry Security
+```
 
 ---
 
-## Learning Approach
+## Production Usage
 
-Every major topic should help answer:
+Container registries are commonly used for:
 
-1. Why do container registry systems exist?
-2. What infrastructure artifact problem does this solve?
-3. How do artifact lifecycle systems behave operationally?
-4. What operational challenges appear at scale?
-5. What tradeoffs exist in registry engineering systems?
-6. What breaks in production artifact environments?
-7. How do engineers debug artifact delivery failures?
-8. How does scaling change registry architecture?
-9. How does artifact integrity improve operational reliability?
-10. How would experienced infrastructure engineers reason about this?
+- Kubernetes Platforms
+- Docker Environments
+- CI/CD Systems
+- Cloud Infrastructure
+- Enterprise Software Delivery
+- Platform Engineering Systems
 
----
+Common Registry Platforms:
 
-## Interview and Production Focus
-
-This section is intentionally designed to support:
-
-- container registry engineering interviews
-- artifact lifecycle understanding
-- operational registry reasoning
-- production troubleshooting mindset
-- software supply chain understanding
-- infrastructure deployment consistency engineering
-- operational diagnostics workflows
-- scalable artifact architecture understanding
-
-The focus is practical infrastructure engineering usefulness rather than theoretical completeness.
+- Docker Hub
+- Amazon ECR
+- Harbor
+- GitHub Container Registry
+- Azure Container Registry
+- Google Artifact Registry
 
 ---
 
-## Long-Term Direction
+## Production Engineering Perspective
 
-This section is intended to evolve into a long-term container registry engineering knowledge platform covering:
+### Common Challenges
 
-- artifact lifecycle systems
-- image distribution architecture
-- software supply chain engineering
-- operational registry reliability
-- image governance workflows
-- artifact observability
-- production registry troubleshooting
-- deployment artifact consistency
-- scalable artifact distribution
-- infrastructure artifact management
-- operational registry engineering
+- Registry Availability Issues
+- Image Sprawl
+- Storage Growth
+- Version Drift
+- Vulnerability Management
+- Access Control Errors
+- Artifact Replication Problems
+- Supply Chain Security Risks
 
-The section should remain:
+### Engineering Goals
 
-- engineering focused
-- practical
-- production aware
-- operationally useful
-- easy to understand
-- scalable
-- human readable
-- experience driven
+- Reliable Image Distribution
+- Secure Software Delivery
+- Deployment Consistency
+- Operational Visibility
+- Artifact Governance
+- Scalable Registry Operations
+
+---
+
+## Repository Ownership
+
+This section primarily owns:
+
+- Container Registry Fundamentals
+- Artifact Distribution
+- Image Lifecycle Management
+- Registry Operations
+- Registry Security
+- Artifact Governance
+- Software Supply Chain Foundations
+- Registry Reliability Concepts
+
+This section references other repository domains when deeper coverage belongs elsewhere.
+
+---
+
+## Most Asked Questions
+
+1. What is a container registry?
+2. Why are container registries important?
+3. Docker Hub vs Amazon ECR?
+4. What is image distribution?
+5. What is image lifecycle management?
+6. How are container images secured?
+7. What is image scanning?
+8. What is image signing?
+9. How do registries support Kubernetes?
+10. What are common registry operational challenges?
+
+---
+
+## Quick Revision
+
+### Priority
+
+⭐⭐⭐⭐ High Priority
+
+### Where Used
+
+- Kubernetes
+- Docker
+- CI/CD Platforms
+- Cloud Infrastructure
+- Enterprise Software Delivery
+
+### Remember
+
+- Container registries store and distribute container images.
+- Registries enable repeatable deployments.
+- Image versioning improves deployment reliability.
+- Registry security protects software supply chains.
+- Registry operations maintain platform reliability.
+- Core cloud-native infrastructure topic.
+
+---
+
+## Long-Term Goal
+
+Build a production-focused container registry engineering knowledge base covering image lifecycle management, artifact distribution, registry operations, software supply chain security, deployment reliability, and large-scale container artifact management.
