@@ -30,6 +30,18 @@
 - Terraform Workflows
 - Terraform Best Practices
 
+### Observability
+
+- Observability Fundamentals
+- Monitoring
+- Metrics
+- Logging
+- Distributed Tracing
+- Alerting
+- SLI, SLO and SLA
+- Prometheus
+- Grafana
+
 ---
 
 ## Current Repository Coverage
@@ -51,10 +63,10 @@
 
 ### High Priority
 
-1. AWS Service Coverage Expansion
-2. Observability Deep Dive
+1. Networking Foundation
+2. AWS Service Coverage Expansion
 3. Security Deep Dive
-4. Networking Expansion
+4. Observability Deep Dive
 5. Kubernetes Advanced Topics
 
 ---
@@ -76,13 +88,11 @@
 
 ### Observability
 
-- Prometheus
-- Grafana
 - OpenTelemetry
-- Alerting Strategies
-- SLI, SLO and SLA
-- Distributed Tracing
 - Log Aggregation
+- Metrics Pipelines
+- Observability Architecture
+- Advanced Alerting Strategies
 
 ---
 
@@ -99,7 +109,8 @@
 
 ### Networking
 
-- DNS Fundamentals
+- Networking Foundation
+- DNS Deep Dive
 - Load Balancing Deep Dive
 - CDN Fundamentals
 - Hybrid Networking
@@ -123,10 +134,12 @@
 - Java Platform Foundation
 - Kubernetes Platform Foundation
 - Terraform Foundation
+- AWS Foundation
+- Observability Foundation
 
 ### Upcoming
 
-- AWS Foundation v1.3.0
-- Observability Foundation
+- Networking Foundation v1.5.0
 - Security Foundation
+- AWS Services Expansion
 - Kubernetes Advanced Foundation

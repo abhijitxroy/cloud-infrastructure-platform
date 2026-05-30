@@ -1,117 +1,145 @@
-# Alerting Basics
+# Alerting
 
 ## Overview
 
-Alerting helps engineering teams identify operational issues and infrastructure conditions requiring attention.
+Alerting is the process of notifying engineering teams when systems, applications, or infrastructure require attention.
 
-Modern infrastructure environments commonly rely on alerting systems to improve reliability, operational awareness and response capability.
+Effective alerting helps teams detect failures quickly, reduce downtime, improve reliability, and respond to incidents before they impact users.
 
-Alerting becomes increasingly important as systems expand across distributed infrastructure and platform environments.
-
----
-
-## Common Alert Areas
-
-Examples:
-
-- Infrastructure availability
-- Application failures
-- Resource utilization thresholds
-- Service responsiveness
-- Operational anomalies
+Alerting is a core capability of modern observability platforms.
 
 ---
 
-## Alert Workflow
+## Why Alerting Matters
 
-Example flow:
+Without Alerting:
 
-Infrastructure Component
+```text
+System Failure
+      ↓
+No Visibility
+      ↓
+Delayed Response
+```
 
-↓
+With Alerting:
 
-Metric Collection
+```text
+System Failure
+      ↓
+Alert Generated
+      ↓
+Engineering Response
+```
 
-↓
+Benefits:
 
-Monitoring Platform
-
-↓
-
-Threshold Evaluation
-
-↓
-
-Alert Generation
-
-↓
-
-Operational Response
-
-Alerting systems help engineering teams respond more quickly to infrastructure and application issues.
+- Faster Incident Detection
+- Reduced Downtime
+- Improved Reliability
+- Better Operational Awareness
+- Faster Recovery
 
 ---
 
-## Alert Categories
+## Topics Covered
+
+### Alerting Basics
+
+Focus Areas:
+
+- Alert Workflow
+- Alert Categories
+- Thresholds
+- Alert Prioritization
+- Operational Response
+
+---
+
+## Alert Lifecycle
+
+```text
+Metrics
+   ↓
+Monitoring System
+   ↓
+Alert Rule
+   ↓
+Notification
+   ↓
+Response
+```
+
+---
+
+## Common Alert Types
 
 ### Availability Alerts
 
-Triggered when infrastructure or applications become unavailable.
-
 Examples:
 
-- Service outage
-- Application failure
-
----
-
-### Resource Alerts
-
-Triggered when resource utilization exceeds expected operational thresholds.
-
-Examples:
-
-- CPU usage
-- Memory utilization
-- Storage capacity
+- Service Down
+- Endpoint Failure
+- Application Unavailable
 
 ---
 
 ### Performance Alerts
 
-Triggered when operational performance deviates from expected behavior.
+Examples:
+
+- High Latency
+- Increased Error Rate
+- Slow Response Time
+
+---
+
+### Resource Alerts
 
 Examples:
 
-- Increased response latency
-- Elevated error rates
+- CPU Utilization
+- Memory Usage
+- Disk Capacity
 
 ---
 
-## Operational Objectives
+## Production Usage
 
-Alerting commonly supports:
+Alerting is commonly used for:
 
-- Faster issue identification
-- Operational awareness
-- Infrastructure reliability
-- Response efficiency
-- Service stability
-
----
-
-## Operational Considerations
-
-Alert strategy commonly considers:
-
-- Signal quality
-- Threshold definition
-- Notification approach
-- Alert prioritization
-- Noise reduction
+- Infrastructure Monitoring
+- Application Monitoring
+- Incident Management
+- Reliability Engineering
+- Platform Operations
 
 ---
 
-## Notes
+## Most Asked Questions
 
-Alerting becomes increasingly important as infrastructure environments evolve toward larger scale operational systems requiring stronger reliability and visibility practices.
+1. What is alerting?
+2. Why is alerting important?
+3. What is alert fatigue?
+4. How are alerts generated?
+5. What metrics commonly trigger alerts?
+6. What makes a good alert?
+7. Monitoring vs Alerting?
+8. How do production teams manage alerts?
+
+---
+
+## Quick Revision
+
+### Priority
+
+⭐⭐⭐⭐⭐ High Priority
+
+### Remember
+
+- Alerting notifies teams about operational issues.
+- Alerts are generated from monitoring signals.
+- Good alerts are actionable.
+- Excessive alerts create alert fatigue.
+- Alerting is essential for incident response.
+- Core observability capability.

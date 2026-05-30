@@ -245,13 +245,91 @@ This section discusses those topics from telemetry visibility and operational di
 ## Repository Structure
 
 ```text
-observability/
-├── alerting/
-├── fundamentals/
-├── logging/
-├── metrics/
-├── monitoring/
-└── tracing/
+observability
+├── README.md
+├── alerting
+│   ├── README.md
+│   └── alerting-basics.md
+├── fundamentals
+│   ├── README.md
+│   └── observability-overview.md
+├── grafana
+│   ├── README.md
+│   └── grafana-overview.md
+├── logging
+│   ├── README.md
+│   └── logging-basics.md
+├── metrics
+│   ├── README.md
+│   └── metrics-basics.md
+├── monitoring
+│   ├── README.md
+│   └── monitoring-basics.md
+├── prometheus
+│   ├── README.md
+│   └── prometheus-overview.md
+├── reliability
+│   ├── README.md
+│   └── sli-slo-sla.md
+└── tracing
+    ├── README.md
+    └── distributed-tracing.md
+```
+
+## Learning Order
+
+```text
+Observability Fundamentals
+        ↓
+Monitoring
+        ↓
+Metrics
+        ↓
+Logging
+        ↓
+Tracing
+        ↓
+Reliability (SLI/SLO/SLA)
+        ↓
+Alerting
+        ↓
+Prometheus
+        ↓
+Grafana
+```
+
+## Topic Importance and Production Usage
+
+| Topic | Importance | Production Usage |
+|---------|------------|------------------|
+| Monitoring | ⭐⭐⭐⭐⭐ | System health monitoring and incident detection |
+| Metrics | ⭐⭐⭐⭐⭐ | Alerting, capacity planning, performance visibility |
+| Logging | ⭐⭐⭐⭐⭐ | Troubleshooting and root cause analysis |
+| Tracing | ⭐⭐⭐⭐⭐ | Microservices debugging and dependency analysis |
+| SLI/SLO/SLA | ⭐⭐⭐⭐⭐ | Reliability engineering and service objectives |
+| Alerting | ⭐⭐⭐⭐⭐ | Operational response and incident management |
+| Prometheus | ⭐⭐⭐⭐⭐ | Metrics collection and monitoring |
+| Grafana | ⭐⭐⭐⭐⭐ | Dashboards and operational visibility |
+
+## Interview Priority Order
+
+```text
+Tier 1 (Must Know)
+Monitoring
+Metrics
+Logging
+Tracing
+SLI/SLO/SLA
+
+Tier 2 (Frequently Asked)
+Prometheus
+Grafana
+Alerting
+
+Tier 3 (Good To Know)
+Telemetry Pipelines
+Metric Cardinality
+Observability Architecture
 ```
 
 ---

@@ -8,6 +8,64 @@ The format is based on maintaining meaningful learning and repository milestones
 
 ---
 
+## v1.4.0 - Observability Foundation
+
+### Added
+
+#### Fundamentals
+
+- Observability Overview
+
+#### Monitoring
+
+- Monitoring Basics
+
+#### Metrics
+
+- Metrics Basics
+
+#### Logging
+
+- Logging Basics
+
+#### Tracing
+
+- Distributed Tracing
+
+#### Reliability
+
+- SLI, SLO and SLA
+
+#### Alerting
+
+- Alerting Basics
+
+#### Prometheus
+
+- Prometheus Overview
+
+#### Grafana
+
+- Grafana Overview
+
+### Impact
+
+Established a comprehensive observability foundation covering:
+
+- Monitoring
+- Metrics
+- Logging
+- Distributed Tracing
+- Reliability Engineering
+- Alerting
+- Prometheus
+- Grafana
+- Operational Visibility
+
+This milestone provides production-oriented observability knowledge for platform engineering, site reliability engineering (SRE), cloud operations, Kubernetes operations, incident response, troubleshooting, and reliability management.
+
+---
+
 ## v1.3.0 - AWS Foundation
 
 ### Added

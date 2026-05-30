@@ -146,9 +146,9 @@ Kubernetes
         ↓
 Networking
         ↓
-Security
-        ↓
 Observability
+        ↓
+Security
 ```
 
 ### Topic Importance and Production Usage
@@ -160,7 +160,7 @@ Observability
 | AWS | ⭐⭐⭐⭐⭐ | Cloud infrastructure and managed services |
 | Networking | ⭐⭐⭐⭐⭐ | Connectivity, routing, security, reliability |
 | Security | ⭐⭐⭐⭐⭐ | Identity, encryption, compliance, governance |
-| Observability | ⭐⭐⭐⭐⭐ | Monitoring, alerting, troubleshooting |
+| Observability | ⭐⭐⭐⭐⭐ | Monitoring, metrics, logging, tracing, reliability |
 | Docker | ⭐⭐⭐⭐ | Container packaging and runtime |
 | Storage | ⭐⭐⭐⭐ | Persistent data and platform storage |
 
@@ -173,13 +173,16 @@ Terraform
 Docker
 Kubernetes Fundamentals
 Networking
+Observability Fundamentals
 
 Tier 2 (Frequently Asked)
 IAM
 VPC
 S3
 EC2
-Observability
+Prometheus
+Grafana
+SLI/SLO/SLA
 Security
 
 Tier 3 (Good To Know)
@@ -187,4 +190,5 @@ Storage Systems
 Container Registry
 Infrastructure Reliability
 Platform Operations
+Distributed Tracing
 ```
