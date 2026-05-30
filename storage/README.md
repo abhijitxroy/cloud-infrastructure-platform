@@ -361,3 +361,200 @@ The section should remain:
 - scalable
 - human readable
 - experience driven
+# Storage
+
+## Overview
+
+Storage is a foundational infrastructure component responsible for persisting, protecting, organizing, and managing data used by applications, platforms, and services.
+
+Modern cloud platforms, enterprise systems, databases, Kubernetes environments, and distributed applications depend on storage systems to maintain operational continuity and data availability.
+
+Storage is one of the core pillars of cloud infrastructure alongside compute, networking, security, and observability.
+
+---
+
+## Why Storage Matters
+
+Without Storage:
+
+```text
+Application
+      ↓
+No Persistent Data
+      ↓
+Data Loss
+```
+
+With Storage:
+
+```text
+Application
+      ↓
+Persistent Storage
+      ↓
+Reliable Data Access
+      ↓
+Business Continuity
+```
+
+Benefits:
+
+- Data Persistence
+- High Availability
+- Data Protection
+- Scalability
+- Operational Reliability
+
+---
+
+## Topics Covered
+
+### Storage Fundamentals
+
+Core storage concepts, persistence models, durability principles, storage architecture, and infrastructure storage foundations.
+
+### Block Storage
+
+Persistent storage systems used by virtual machines, databases, enterprise applications, and stateful workloads.
+
+### Object Storage
+
+Scalable cloud storage systems designed for durability, large-scale storage, backups, archives, and cloud-native applications.
+
+### Distributed Storage
+
+Storage architectures that improve scalability, availability, fault tolerance, and durability through distributed infrastructure.
+
+### Persistence Models
+
+Stateful application storage, persistent storage concepts, Kubernetes persistence, and workload durability requirements.
+
+### Backup And Recovery
+
+Data protection strategies, recovery planning, disaster recovery concepts, RPO, RTO, and operational recovery practices.
+
+---
+
+## Repository Structure
+
+```text
+storage/
+├── backup-recovery/
+├── block-storage/
+├── distributed-storage/
+├── fundamentals/
+├── object-storage/
+└── persistence/
+```
+
+---
+
+## Learning Path
+
+```text
+Storage Fundamentals
+      ↓
+Block Storage
+      ↓
+Object Storage
+      ↓
+Distributed Storage
+      ↓
+Persistence Models
+      ↓
+Backup And Recovery
+```
+
+---
+
+## Production Usage
+
+Storage systems are commonly used for:
+
+- Cloud Infrastructure
+- Kubernetes Platforms
+- Enterprise Applications
+- Databases
+- Distributed Systems
+- Data Platforms
+- Backup Systems
+- Disaster Recovery Solutions
+
+---
+
+## Production Engineering Perspective
+
+### Common Challenges
+
+- Storage Capacity Growth
+- Backup Failures
+- Recovery Complexity
+- Storage Cost Optimization
+- Performance Bottlenecks
+- Data Durability Risks
+- Replication Failures
+- Scalability Constraints
+
+---
+
+## Repository Ownership
+
+This section primarily owns:
+
+- Storage Fundamentals
+- Block Storage
+- Object Storage
+- Distributed Storage
+- Persistence Models
+- Backup And Recovery
+- Infrastructure Durability Concepts
+- Storage Reliability Foundations
+
+This section references other repositories when deeper coverage belongs elsewhere.
+
+---
+
+## Most Asked Questions
+
+1. What is storage?
+2. Why is storage important?
+3. Block storage vs object storage?
+4. What is distributed storage?
+5. What is persistence?
+6. What is RPO?
+7. What is RTO?
+8. How is storage used in Kubernetes?
+9. Why is backup important?
+10. What are common storage challenges?
+
+---
+
+## Quick Revision
+
+### Priority
+
+⭐⭐⭐⭐⭐ Highest Priority
+
+### Where Used
+
+- AWS
+- Kubernetes
+- Databases
+- Enterprise Applications
+- Cloud Platforms
+- Distributed Systems
+
+### Remember
+
+- Storage enables data persistence.
+- Block, object, and distributed storage solve different infrastructure problems.
+- Persistence is essential for stateful workloads.
+- Backup and recovery protect business data.
+- Storage is a core cloud infrastructure pillar.
+- Critical topic for cloud, infrastructure, Kubernetes, and system design interviews.
+
+---
+
+## Long-Term Goal
+
+Build a production-focused storage engineering knowledge base that helps engineers understand storage architecture, persistence systems, distributed storage, durability engineering, backup strategies, recovery planning, and real-world infrastructure operations.

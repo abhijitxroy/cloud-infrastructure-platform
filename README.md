@@ -16,6 +16,7 @@ Build a long-term infrastructure engineering knowledge system that helps enginee
 - Networking Systems
 - Observability Platforms
 - Security Architecture
+- Storage Systems
 - Reliability Engineering
 - Production Operations
 
@@ -49,6 +50,7 @@ Primary focus areas include:
 - Docker and Container Platforms
 - Kubernetes Architecture and Operations
 - Infrastructure Networking
+- Storage Engineering
 - Platform Security
 - Observability Systems
 - Infrastructure Reliability
@@ -119,6 +121,12 @@ cloud-infrastructure-platform
 ├── observability/
 ├── security/
 ├── storage/
+│   ├── fundamentals/
+│   ├── block-storage/
+│   ├── object-storage/
+│   ├── distributed-storage/
+│   ├── persistence/
+│   └── backup-recovery/
 └── terraform/
     ├── best-practices/
     ├── fundamentals/
@@ -145,6 +153,8 @@ Docker
 Kubernetes
         ↓
 Networking
+        ↓
+Storage
         ↓
 Observability
         ↓
@@ -199,7 +209,11 @@ Container Security
 Security Scanning
 
 Tier 3 (Good To Know)
-Storage Systems
+Block Storage
+Object Storage
+Distributed Storage
+Persistence Models
+Backup And Recovery
 Container Registry
 Infrastructure Reliability
 Platform Operations

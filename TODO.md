@@ -64,6 +64,15 @@
 - Security Scanning
 - Compliance Basics
 
+### Storage
+
+- Storage Overview
+- Block Storage Basics
+- Object Storage Basics
+- Distributed Storage Basics
+- Persistence Models
+- Backup Recovery Basics
+
 ---
 
 ---
@@ -81,7 +90,7 @@
 - Networking Fundamentals
 - Observability Fundamentals
 - Security Fundamentals
-- Storage Fundamentals
+- Storage Foundation
 - Security Foundation
 
 ## Next Priorities
@@ -89,10 +98,10 @@
 ### High Priority
 
 1. AWS Service Coverage Expansion
-2. Observability Deep Dive
-3. Kubernetes Advanced Topics
-4. Reliability Engineering Foundation
-5. Security Deep Dive
+2. Kubernetes Advanced Topics
+3. Observability Deep Dive
+4. Security Deep Dive
+5. Container Registry Expansion
 
 ---
 
@@ -161,12 +170,12 @@
 - Terraform Foundation
 - AWS Foundation
 - Observability Foundation
-
 - Networking Foundation
 - Security Foundation
+- Storage Foundation
 
 ### Upcoming
 
 - AWS Services Expansion
 - Kubernetes Advanced Foundation
-- Reliability Engineering Foundation
+- Container Registry Expansion
