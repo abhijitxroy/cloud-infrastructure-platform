@@ -162,7 +162,7 @@ Current Kubernetes coverage includes:
 - Storage
 - Tooling
 
-Coverage focuses on production-oriented Kubernetes knowledge, operational troubleshooting, architecture understanding, and practical platform engineering usage.
+The Kubernetes section now provides a complete foundational learning path covering cluster architecture, workloads, networking, storage, security, operations, troubleshooting, and platform administration concepts.
 
 ---
 
@@ -205,10 +205,14 @@ Examples:
 
 - Terraform fundamentals
 - providers
+- resources
 - modules
 - remote state
+- state locking
 - infrastructure automation
 - infrastructure workflows
+- secrets management
+- Terraform best practices
 
 ---
 
@@ -254,19 +258,38 @@ High-level architecture reasoning, distributed systems theory, scalability archi
 
 ## Repository Structure
 
-```text
 cloud-infrastructure-platform/
 ├── aws/
 ├── container-registry/
 ├── docker/
 ├── infrastructure/
 ├── kubernetes/
+│   ├── architecture/
+│   ├── control-plane/
+│   ├── fundamentals/
+│   ├── installation/
+│   ├── networking/
+│   ├── objects/
+│   ├── operations/
+│   ├── scheduling/
+│   ├── security/
+│   ├── storage/
+│   ├── tooling/
+│   └── worker-node/
 ├── networking/
 ├── observability/
 ├── security/
 ├── storage/
 └── terraform/
-```
+    ├── best-practices/
+    ├── fundamentals/
+    ├── modules/
+    ├── providers/
+    ├── provisioning/
+    ├── resources/
+    ├── security/
+    ├── state-management/
+    └── workflows/
 
 ---
 
@@ -422,9 +445,9 @@ Common responsibilities:
 1. Kubernetes
 2. Terraform
 3. AWS Fundamentals
-4. Observability
+4. Networking
 5. Security
-6. Networking
+6. Observability
 7. Storage
 
 ### Must Know Areas

@@ -18,6 +18,18 @@
 - Kubernetes Tooling
 - Kubernetes Questions and Answers
 
+### Terraform
+
+- Terraform Fundamentals
+- Terraform Providers
+- Terraform Resources
+- Terraform Modules
+- Terraform Provisioning
+- Terraform Security
+- Terraform State Management
+- Terraform Workflows
+- Terraform Best Practices
+
 ---
 
 ## Current Repository Coverage
@@ -29,6 +41,7 @@
 - Container Registry Fundamentals
 - Infrastructure Fundamentals
 - Kubernetes Foundation
+- Terraform Foundation
 - Networking Fundamentals
 - Observability Fundamentals
 - Security Fundamentals
@@ -40,21 +53,10 @@
 
 ### High Priority
 
-1. Terraform Expansion
-2. AWS Service Coverage Expansion
-3. Observability Deep Dive
-4. Security Deep Dive
-
----
-
-### Terraform
-
-- Terraform Workflows
-- Terraform State Management
-- Terraform Modules
-- Terraform Providers
-- Terraform Resource Management
-- Production Terraform Patterns
+1. AWS Service Coverage Expansion
+2. Observability Deep Dive
+3. Security Deep Dive
+4. Networking Expansion
 
 ---
 
@@ -97,10 +99,10 @@
 
 - Java Platform Foundation
 - Kubernetes Platform Foundation
+- Terraform Foundation
 
 ### Upcoming
 
-- Terraform Foundation
 - AWS Core Services Foundation
 - Observability Foundation
 - Security Foundation
