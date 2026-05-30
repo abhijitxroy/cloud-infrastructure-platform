@@ -94,6 +94,15 @@
 - Logging
 - Container Registry
 
+### Infrastructure
+
+- Infrastructure Overview
+- Reliability Basics
+- High Availability
+- Resilience Patterns
+- Scaling Patterns
+- Capacity Planning
+
 ---
 
 ## Current Repository Coverage
@@ -103,7 +112,7 @@
 - AWS Foundation
 - Docker Foundation
 - Container Registry Foundation
-- Infrastructure Fundamentals
+- Infrastructure Foundation
 - Kubernetes Foundation
 - Terraform Foundation
 - Networking Foundation
@@ -119,8 +128,7 @@
 2. Kubernetes Advanced Topics
 3. Observability Deep Dive
 4. Security Deep Dive
-5. Docker Foundation Release
-6. Infrastructure Foundation
+5. Infrastructure Foundation Release
 
 ---
 
@@ -194,10 +202,9 @@
 - Storage Foundation
 - Container Registry Foundation
 - Docker Foundation
+- Infrastructure Foundation
 
 ### Upcoming
 
 - AWS Services Expansion
 - Kubernetes Advanced Foundation
-- Docker Foundation
-- Infrastructure Foundation

@@ -11,6 +11,11 @@ This repository focuses on understanding how modern infrastructure platforms are
 Build a long-term infrastructure engineering knowledge system that helps engineers understand:
 
 - Cloud Infrastructure
+- Infrastructure Architecture
+- High Availability
+- Resilience Engineering
+- Scaling Systems
+- Capacity Planning
 - Kubernetes Platforms
 - Infrastructure Automation
 - Networking Systems
@@ -56,6 +61,9 @@ Primary focus areas include:
 - Platform Security
 - Observability Systems
 - Infrastructure Reliability
+- Infrastructure Architecture
+- High Availability and Resilience
+- Capacity Planning and Scaling
 - Production Troubleshooting
 
 ---
@@ -120,6 +128,12 @@ cloud-infrastructure-platform
 │   ├── operations/
 │   └── registry/
 ├── infrastructure/
+│   ├── fundamentals/
+│   ├── reliability/
+│   ├── high-availability/
+│   ├── resilience/
+│   ├── scaling/
+│   └── capacity-planning/
 ├── kubernetes/
 │   ├── architecture/
 │   ├── control-plane/
@@ -178,6 +192,8 @@ Observability
         ↓
 Security
         ↓
+Infrastructure Engineering
+        ↓
 Reliability Engineering
 ```
 
@@ -188,6 +204,7 @@ Reliability Engineering
 | Kubernetes | ⭐⭐⭐⭐⭐ | Container orchestration, platform engineering |
 | Terraform | ⭐⭐⭐⭐⭐ | Infrastructure provisioning and automation |
 | AWS | ⭐⭐⭐⭐⭐ | Cloud infrastructure and managed services |
+| Infrastructure | ⭐⭐⭐⭐⭐ | Reliability, availability, resilience, scaling, capacity planning |
 | Networking | ⭐⭐⭐⭐⭐ | DNS, routing, load balancing, protocols, security |
 | Security | ⭐⭐⭐⭐⭐ | IAM, access control, encryption, secrets management, network security |
 | Observability | ⭐⭐⭐⭐⭐ | Monitoring, metrics, logging, tracing, reliability |
@@ -229,6 +246,10 @@ Dockerfile
 Docker Networking
 Docker Volumes
 Docker Compose
+Reliability
+High Availability
+Resilience
+Scaling
 
 Tier 3 (Good To Know)
 Container Registry Fundamentals
@@ -237,6 +258,9 @@ Container Health
 Container Logging
 Registry Security
 Infrastructure Reliability
+Capacity Planning
+Disaster Recovery
+Fault Tolerance
 Platform Operations
 Distributed Tracing
 Connectivity Models
