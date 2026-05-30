@@ -4,7 +4,7 @@
 
 Kubernetes architecture follows a distributed control model consisting of cluster management components and workload execution components.
 
-A Kubernetes cluster is generally organized into:
+A Kubernetes cluster is organized into:
 
 - Control Plane
 - Worker Nodes
@@ -15,37 +15,92 @@ Worker Nodes execute application workloads.
 
 ---
 
+## Why Architecture Matters
+
+Understanding Kubernetes architecture helps engineers:
+
+- Troubleshoot Production Issues
+- Understand Scheduling Decisions
+- Debug Cluster Failures
+- Design Highly Available Clusters
+- Operate Kubernetes At Scale
+
+---
+
 ## High Level Architecture
 
-Client / Kubectl
+```text
+Users / CI-CD
+       ↓
+    Kubectl
+       ↓
+   API Server
+       ↓
+┌──────────────┐
+│ Control Plane│
+└──────────────┘
+       ↓
+┌──────────────┐
+│ Worker Nodes │
+└──────────────┘
+       ↓
+      Pods
+       ↓
+ Applications
+```
 
-↓
+---
 
-API Server
+## Control Plane Components
 
-↓
+Core Components:
 
-Control Plane Components
-
+- API Server
 - Scheduler
 - Controller Manager
 - ETCD
 
-↓
+Responsibilities:
 
-Worker Nodes
+- Cluster State Management
+- Scheduling Decisions
+- Desired State Enforcement
+- Configuration Storage
+
+---
+
+## Worker Node Components
+
+Core Components:
 
 - Kubelet
-- Container Runtime
 - Kube Proxy
+- Container Runtime
 
-↓
+Responsibilities:
 
-Pods
+- Pod Execution
+- Container Lifecycle Management
+- Node Health Reporting
+- Service Networking
 
-↓
+---
 
-Application Workloads
+## Request Flow
+
+```text
+Kubectl
+    ↓
+API Server
+    ↓
+ETCD Updated
+    ↓
+Scheduler Selects Node
+    ↓
+Kubelet Creates Pod
+    ↓
+Application Running
+```
 
 ---
 
@@ -53,10 +108,11 @@ Application Workloads
 
 Examples:
 
-- Cluster state management
-- Scheduling decisions
-- API processing
-- Workload orchestration
+- Cluster State Management
+- API Processing
+- Workload Scheduling
+- Replica Management
+- Rolling Updates
 
 ---
 
@@ -64,28 +120,104 @@ Examples:
 
 Examples:
 
-- Workload execution
-- Container lifecycle management
-- Node health reporting
-- Network communication
+- Running Containers
+- Monitoring Pods
+- Reporting Node Status
+- Managing Local Resources
 
 ---
 
 ## Operational Model
 
-Kubernetes continuously works toward maintaining expected application state.
+Kubernetes continuously compares:
+
+```text
+Desired State
+      vs
+Current State
+```
 
 Examples:
 
-- Workload recovery
-- Scaling operations
-- Deployment updates
-- Service discovery
+- Workload Recovery
+- Scaling Operations
+- Deployment Updates
+- Self Healing
 
 ---
 
-## Notes
+## High Availability Architecture
 
-Kubernetes architecture separates cluster management responsibilities from workload execution responsibilities, helping improve scalability and operational management.
+Production clusters typically use:
 
-Architecture diagrams and implementation examples can be expanded further over time.
+```text
+Load Balancer
+       ↓
+Multiple Control Plane Nodes
+       ↓
+Multiple Worker Nodes
+```
+
+Benefits:
+
+- Fault Tolerance
+- Better Reliability
+- Reduced Downtime
+
+---
+
+## Production Example
+
+```text
+3 Control Plane Nodes
+        ↓
+20 Worker Nodes
+        ↓
+500+ Pods
+        ↓
+Business Applications
+```
+
+---
+
+## Related Topics
+
+- Cluster Architecture
+- Control Plane vs Worker Node
+- API Server
+- Scheduler
+- Controller Manager
+- ETCD
+- Kubelet
+- Kube Proxy
+
+---
+
+## Most Asked Interview Questions
+
+1. What is Kubernetes Architecture?
+2. What are the major Kubernetes components?
+3. What is the Control Plane?
+4. What is a Worker Node?
+5. What is the role of the API Server?
+6. Why is ETCD important?
+7. How does scheduling work?
+8. How does Kubernetes achieve self-healing?
+
+---
+
+## Quick Revision
+
+### Priority
+
+⭐⭐⭐⭐⭐ Highest Priority
+
+### Remember
+
+- Kubernetes consists of Control Plane and Worker Nodes.
+- API Server is the cluster entry point.
+- ETCD stores cluster state.
+- Scheduler places Pods on nodes.
+- Controllers maintain desired state.
+- Worker Nodes run application workloads.
+- Architecture is a foundational Kubernetes interview topic.
