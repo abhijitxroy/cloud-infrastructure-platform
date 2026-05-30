@@ -8,6 +8,65 @@ The format is based on maintaining meaningful learning and repository milestones
 
 ---
 
+## v1.6.0 - Security Foundation
+
+### Added
+
+#### Fundamentals
+
+- Security Overview
+
+#### IAM
+
+- Authentication vs Authorization
+
+#### Access Control
+
+- Access Control Basics
+
+#### Encryption
+
+- Encryption Basics
+
+#### Secrets Management
+
+- Secrets Management Basics
+
+#### Network Security
+
+- Network Security Overview
+
+#### Container Security
+
+- Container Security Basics
+
+#### Security Scanning
+
+- Security Scanning
+
+#### Compliance
+
+- Compliance Basics
+
+### Impact
+
+Established a comprehensive security foundation covering:
+
+- Security Fundamentals
+- Identity and Access Management
+- Access Control
+- Encryption
+- Secrets Management
+- Network Security
+- Container Security
+- Security Scanning
+- Compliance
+- Security Best Practices
+
+This milestone provides production-oriented security knowledge for cloud engineering, platform engineering, Kubernetes security, DevSecOps, infrastructure operations, governance, risk reduction, and interview preparation.
+
+---
+
 ## v1.5.0 - Networking Foundation
 
 ### Added

@@ -258,13 +258,93 @@ This section discusses those topics only from infrastructure protection and oper
 ## Repository Structure
 
 ```text
-security/
-├── access-control/
-├── compliance/
-├── container-security/
-├── fundamentals/
-├── scanning/
-└── secrets-management/
+security
+├── README.md
+├── access-control
+│   ├── README.md
+│   └── access-control-basics.md
+├── compliance
+│   ├── README.md
+│   └── compliance-basics.md
+├── container-security
+│   ├── README.md
+│   └── container-security-basics.md
+├── encryption
+│   ├── README.md
+│   └── encryption-basics.md
+├── fundamentals
+│   ├── README.md
+│   └── security-overview.md
+├── iam
+│   ├── README.md
+│   └── authentication-vs-authorization.md
+├── network-security
+│   ├── README.md
+│   └── network-security-overview.md
+├── scanning
+│   ├── README.md
+│   └── security-scanning.md
+└── secrets-management
+    ├── README.md
+    └── secrets-management-basics.md
+```
+
+## Learning Order
+
+```text
+Security Overview
+        ↓
+Authentication vs Authorization
+        ↓
+Access Control
+        ↓
+Encryption
+        ↓
+Secrets Management
+        ↓
+Network Security
+        ↓
+Container Security
+        ↓
+Security Scanning
+        ↓
+Compliance
+```
+
+## Topic Importance and Production Usage
+
+| Topic | Importance | Production Usage |
+|----------|----------|----------|
+| Security Overview | ⭐⭐⭐⭐⭐ | Security foundations and risk management |
+| Authentication vs Authorization | ⭐⭐⭐⭐⭐ | Identity and access management |
+| Access Control | ⭐⭐⭐⭐⭐ | Permission and governance systems |
+| Encryption | ⭐⭐⭐⭐⭐ | Data protection and secure communication |
+| Secrets Management | ⭐⭐⭐⭐⭐ | Credential and key protection |
+| Network Security | ⭐⭐⭐⭐⭐ | Infrastructure and communication security |
+| Container Security | ⭐⭐⭐⭐ | Kubernetes and workload protection |
+| Security Scanning | ⭐⭐⭐⭐ | Vulnerability management and DevSecOps |
+| Compliance | ⭐⭐⭐ | Governance and regulatory alignment |
+
+## Interview Priority Order
+
+```text
+Tier 1 (Must Know)
+Security Overview
+Authentication vs Authorization
+Access Control
+Encryption
+Secrets Management
+Network Security
+
+Tier 2 (Frequently Asked)
+Container Security
+Security Scanning
+
+Tier 3 (Good To Know)
+Compliance
+Zero Trust
+Threat Modeling
+Supply Chain Security
 ```
 
 ---

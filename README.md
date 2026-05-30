@@ -161,7 +161,7 @@ Reliability Engineering
 | Terraform | ⭐⭐⭐⭐⭐ | Infrastructure provisioning and automation |
 | AWS | ⭐⭐⭐⭐⭐ | Cloud infrastructure and managed services |
 | Networking | ⭐⭐⭐⭐⭐ | DNS, routing, load balancing, protocols, security |
-| Security | ⭐⭐⭐⭐⭐ | Identity, encryption, compliance, governance |
+| Security | ⭐⭐⭐⭐⭐ | IAM, access control, encryption, secrets management, network security |
 | Observability | ⭐⭐⭐⭐⭐ | Monitoring, metrics, logging, tracing, reliability |
 | Docker | ⭐⭐⭐⭐ | Container packaging and runtime |
 | Storage | ⭐⭐⭐⭐ | Persistent data and platform storage |
@@ -179,6 +179,12 @@ DNS
 TCP vs UDP
 Routing
 Load Balancing
+Security Overview
+Authentication vs Authorization
+Access Control
+Encryption
+Secrets Management
+Network Security
 
 Tier 2 (Frequently Asked)
 IAM
@@ -189,6 +195,8 @@ Prometheus
 Grafana
 SLI/SLO/SLA
 Network Security
+Container Security
+Security Scanning
 
 Tier 3 (Good To Know)
 Storage Systems
@@ -197,4 +205,8 @@ Infrastructure Reliability
 Platform Operations
 Distributed Tracing
 Connectivity Models
+Compliance
+Zero Trust
+Threat Modeling
+Supply Chain Security
 ```

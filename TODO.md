@@ -52,6 +52,18 @@
 - Load Balancing Fundamentals
 - Network Security Fundamentals
 
+### Security
+
+- Security Overview
+- Authentication vs Authorization
+- Access Control Basics
+- Encryption Basics
+- Secrets Management Basics
+- Network Security Overview
+- Container Security Basics
+- Security Scanning
+- Compliance Basics
+
 ---
 
 ---
@@ -70,16 +82,17 @@
 - Observability Fundamentals
 - Security Fundamentals
 - Storage Fundamentals
+- Security Foundation
 
 ## Next Priorities
 
 ### High Priority
 
 1. AWS Service Coverage Expansion
-2. Security Deep Dive
-3. Observability Deep Dive
-4. Kubernetes Advanced Topics
-5. Reliability Engineering Foundation
+2. Observability Deep Dive
+3. Kubernetes Advanced Topics
+4. Reliability Engineering Foundation
+5. Security Deep Dive
 
 ---
 
@@ -150,10 +163,10 @@
 - Observability Foundation
 
 - Networking Foundation
+- Security Foundation
 
 ### Upcoming
 
-- Security Foundation
 - AWS Services Expansion
 - Kubernetes Advanced Foundation
 - Reliability Engineering Foundation
