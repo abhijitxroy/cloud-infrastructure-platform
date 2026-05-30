@@ -42,6 +42,18 @@
 - Prometheus
 - Grafana
 
+### Networking
+
+- Network Overview
+- Connectivity Models
+- TCP vs UDP
+- DNS Fundamentals
+- Routing Fundamentals
+- Load Balancing Fundamentals
+- Network Security Fundamentals
+
+---
+
 ---
 
 ## Current Repository Coverage
@@ -63,11 +75,11 @@
 
 ### High Priority
 
-1. Networking Foundation
-2. AWS Service Coverage Expansion
-3. Security Deep Dive
-4. Observability Deep Dive
-5. Kubernetes Advanced Topics
+1. AWS Service Coverage Expansion
+2. Security Deep Dive
+3. Observability Deep Dive
+4. Kubernetes Advanced Topics
+5. Reliability Engineering Foundation
 
 ---
 
@@ -109,12 +121,12 @@
 
 ### Networking
 
-- Networking Foundation
 - DNS Deep Dive
 - Load Balancing Deep Dive
 - CDN Fundamentals
 - Hybrid Networking
 - Service Mesh Fundamentals
+- Network Troubleshooting
 
 ---
 
@@ -137,9 +149,11 @@
 - AWS Foundation
 - Observability Foundation
 
+- Networking Foundation
+
 ### Upcoming
 
-- Networking Foundation v1.5.0
 - Security Foundation
 - AWS Services Expansion
 - Kubernetes Advanced Foundation
+- Reliability Engineering Foundation

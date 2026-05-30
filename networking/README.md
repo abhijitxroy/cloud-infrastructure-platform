@@ -247,13 +247,81 @@ This section discusses those topics only from infrastructure communication and o
 ## Repository Structure
 
 ```text
-networking/
-├── connectivity/
-├── dns/
-├── fundamentals/
-├── load-balancing/
-├── protocols/
-└── security/
+networking
+├── README.md
+├── connectivity
+│   ├── README.md
+│   └── connectivity-models.md
+├── dns
+│   ├── README.md
+│   └── dns-overview.md
+├── fundamentals
+│   ├── README.md
+│   └── network-overview.md
+├── load-balancing
+│   ├── README.md
+│   └── load-balancing-basics.md
+├── protocols
+│   ├── README.md
+│   └── tcp-vs-udp.md
+├── routing
+│   ├── README.md
+│   └── routing-basics.md
+└── security
+    ├── README.md
+    └── network-security-basics.md
+```
+
+## Learning Order
+
+```text
+Network Overview
+        ↓
+Connectivity Models
+        ↓
+TCP vs UDP
+        ↓
+DNS
+        ↓
+Routing
+        ↓
+Load Balancing
+        ↓
+Network Security
+```
+
+## Topic Importance and Production Usage
+
+| Topic | Importance | Production Usage |
+|---------|------------|------------------|
+| Network Overview | ⭐⭐⭐⭐⭐ | Infrastructure communication foundations |
+| Connectivity Models | ⭐⭐⭐⭐ | Service-to-service communication |
+| TCP vs UDP | ⭐⭐⭐⭐⭐ | Application and transport communication |
+| DNS | ⭐⭐⭐⭐⭐ | Service discovery and name resolution |
+| Routing | ⭐⭐⭐⭐⭐ | Traffic forwarding and cloud networking |
+| Load Balancing | ⭐⭐⭐⭐⭐ | Scalability and high availability |
+| Network Security | ⭐⭐⭐⭐⭐ | Infrastructure protection and secure communication |
+
+## Interview Priority Order
+
+```text
+Tier 1 (Must Know)
+Network Overview
+TCP vs UDP
+DNS
+Routing
+Load Balancing
+
+Tier 2 (Frequently Asked)
+Connectivity Models
+Network Security
+
+Tier 3 (Good To Know Later)
+NAT
+VPN
+Service Mesh
+Hybrid Networking
+Traffic Engineering
 ```
 
 ---

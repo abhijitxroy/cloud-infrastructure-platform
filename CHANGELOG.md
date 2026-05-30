@@ -8,6 +8,56 @@ The format is based on maintaining meaningful learning and repository milestones
 
 ---
 
+## v1.5.0 - Networking Foundation
+
+### Added
+
+#### Fundamentals
+
+- Network Overview
+
+#### Connectivity
+
+- Connectivity Models
+
+#### Protocols
+
+- TCP vs UDP
+
+#### DNS
+
+- DNS Overview
+
+#### Routing
+
+- Routing Basics
+
+#### Load Balancing
+
+- Load Balancing Basics
+
+#### Security
+
+- Network Security Basics
+
+### Impact
+
+Established a comprehensive networking foundation covering:
+
+- Networking Fundamentals
+- Connectivity Models
+- Transport Protocols
+- DNS
+- Routing
+- Load Balancing
+- Network Security
+- Traffic Flow
+- Service Communication
+
+This milestone provides production-oriented networking knowledge for cloud engineering, platform engineering, Kubernetes networking, infrastructure operations, distributed systems, troubleshooting, and interview preparation.
+
+---
+
 ## v1.4.0 - Observability Foundation
 
 ### Added

@@ -149,6 +149,8 @@ Networking
 Observability
         ↓
 Security
+        ↓
+Reliability Engineering
 ```
 
 ### Topic Importance and Production Usage
@@ -158,7 +160,7 @@ Security
 | Kubernetes | ⭐⭐⭐⭐⭐ | Container orchestration, platform engineering |
 | Terraform | ⭐⭐⭐⭐⭐ | Infrastructure provisioning and automation |
 | AWS | ⭐⭐⭐⭐⭐ | Cloud infrastructure and managed services |
-| Networking | ⭐⭐⭐⭐⭐ | Connectivity, routing, security, reliability |
+| Networking | ⭐⭐⭐⭐⭐ | DNS, routing, load balancing, protocols, security |
 | Security | ⭐⭐⭐⭐⭐ | Identity, encryption, compliance, governance |
 | Observability | ⭐⭐⭐⭐⭐ | Monitoring, metrics, logging, tracing, reliability |
 | Docker | ⭐⭐⭐⭐ | Container packaging and runtime |
@@ -172,8 +174,11 @@ AWS Fundamentals
 Terraform
 Docker
 Kubernetes Fundamentals
-Networking
-Observability Fundamentals
+Networking Fundamentals
+DNS
+TCP vs UDP
+Routing
+Load Balancing
 
 Tier 2 (Frequently Asked)
 IAM
@@ -183,7 +188,7 @@ EC2
 Prometheus
 Grafana
 SLI/SLO/SLA
-Security
+Network Security
 
 Tier 3 (Good To Know)
 Storage Systems
@@ -191,4 +196,5 @@ Container Registry
 Infrastructure Reliability
 Platform Operations
 Distributed Tracing
+Connectivity Models
 ```
