@@ -8,6 +8,82 @@ The format is based on maintaining meaningful learning and repository milestones
 
 ---
 
+## v1.2.0 - Terraform Foundation
+
+### Added
+
+#### Terraform Fundamentals
+
+- Terraform Overview
+- Infrastructure as Code
+- Terraform vs CloudFormation
+
+#### Providers
+
+- Provider Basics
+- Provider Versioning
+
+#### Resources
+
+- Resource Management
+- Resource Lifecycle
+- Dependencies
+- Variables and Outputs
+
+#### Modules
+
+- Module Basics
+- Module Structure
+- Reusable Modules
+- Module Versioning
+
+#### Provisioning
+
+- Provisioners
+
+#### Security
+
+- Secrets Management
+- Sensitive Data
+
+#### State Management
+
+- Terraform State
+- Remote State
+- State Backends
+- State Locking
+- State File Structure
+
+#### Workflows
+
+- Infrastructure Workflow
+- Terraform Plan
+- Terraform Apply
+- Terraform Destroy
+- CI/CD Integration
+
+#### Best Practices
+
+- Terraform Best Practices
+- Project Structure
+- Environment Strategy
+
+### Impact
+
+Established a comprehensive Terraform foundation covering:
+
+- Infrastructure as Code
+- Resource Management
+- State Management
+- Reusable Modules
+- Security
+- Infrastructure Workflows
+- Provisioning Patterns
+- Production Best Practices
+
+This milestone provides production-oriented Terraform knowledge for infrastructure automation, platform engineering, cloud operations, and Infrastructure as Code adoption.
+
+
 ## v1.1.0 - Kubernetes Platform Foundation
 
 ### Added
