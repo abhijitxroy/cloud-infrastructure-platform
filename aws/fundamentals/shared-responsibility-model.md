@@ -1,12 +1,14 @@
+
+
 # Shared Responsibility Model
 
 ## Overview
 
-The AWS Shared Responsibility Model defines security responsibilities between AWS and customers.
+The AWS Shared Responsibility Model defines how security and operational responsibilities are divided between AWS and customers.
 
-AWS is responsible for securing the cloud infrastructure, while customers are responsible for securing their workloads, applications, identities, and data within AWS.
+AWS is responsible for securing the cloud infrastructure, while customers are responsible for securing their applications, identities, operating systems, configurations, and data.
 
-Understanding this model is critical for designing secure cloud environments.
+Understanding this model is essential for building secure and compliant AWS environments.
 
 ---
 
@@ -26,7 +28,7 @@ Customer
 Security In The Cloud
 ```
 
-Understanding responsibilities helps prevent security gaps and compliance issues.
+Both AWS and customers have security responsibilities.
 
 ---
 
@@ -36,11 +38,12 @@ AWS is responsible for:
 
 - Physical Data Centers
 - Hardware Infrastructure
+- Storage Infrastructure
 - Networking Infrastructure
 - Global Infrastructure
-- Managed Service Infrastructure
 - Availability Zones
 - Regions
+- Managed Service Infrastructure
 
 ```text
 Physical Security
@@ -58,10 +61,11 @@ Customers are responsible for:
 - User Access Management
 - Security Groups
 - Network Configuration
+- Operating System Security
+- Application Security
 - Data Protection
 - Encryption Configuration
-- Operating System Management
-- Application Security
+- Compliance Requirements
 
 ```text
 Applications
@@ -76,8 +80,8 @@ Customer Responsibility
 AWS Manages:
 
 - Physical Servers
+- Networking Hardware
 - Storage Hardware
-- Networking Infrastructure
 - Hypervisor
 
 Customer Manages:
@@ -85,9 +89,9 @@ Customer Manages:
 - Operating System
 - Security Patches
 - Installed Software
-- User Accounts
 - Firewall Rules
 - Application Security
+- Data Protection
 
 ---
 
@@ -121,24 +125,8 @@ Customer Manages:
 
 - Bucket Permissions
 - Encryption Settings
-- Data Access Controls
+- Access Controls
 - Data Classification
-
----
-
-## Security Layers
-
-```text
-Application
-      ↓
-Operating System
-      ↓
-Network Controls
-      ↓
-Infrastructure
-```
-
-Responsibility changes depending on the AWS service being used.
 
 ---
 
@@ -166,10 +154,10 @@ Less Customer Management
 
 ---
 
-## Common Mistakes
+## Common Security Mistakes
 
 - Excessive IAM Permissions
-- Publicly Exposed Resources
+- Public S3 Buckets
 - Missing Encryption
 - Weak Access Controls
 - Unpatched Systems
@@ -185,9 +173,9 @@ Infrastructure Security
 
 Customer
  ↓
-Application Security
- ↓
 Identity Management
+ ↓
+Application Security
  ↓
 Data Protection
 ```
@@ -201,9 +189,9 @@ Both parties contribute to overall security.
 ### Common Challenges
 
 - IAM Misconfiguration
-- Public S3 Buckets
 - Excessive Permissions
-- Missing Encryption
+- Missing MFA
+- Public Resources
 - Incomplete Security Reviews
 
 ---

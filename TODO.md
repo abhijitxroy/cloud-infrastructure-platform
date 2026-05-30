@@ -36,7 +36,7 @@
 
 ### Completed Areas
 
-- AWS Fundamentals
+- AWS Foundation
 - Docker Fundamentals
 - Container Registry Fundamentals
 - Infrastructure Fundamentals
@@ -47,8 +47,6 @@
 - Security Fundamentals
 - Storage Fundamentals
 
----
-
 ## Next Priorities
 
 ### High Priority
@@ -57,19 +55,22 @@
 2. Observability Deep Dive
 3. Security Deep Dive
 4. Networking Expansion
+5. Kubernetes Advanced Topics
 
 ---
 
-### AWS
+### AWS Service Expansion
 
-- VPC
-- S3
-- RDS
 - EKS
 - ECS
+- Lambda
+- API Gateway
 - Route 53
-- CloudWatch
-- Load Balancers
+- CloudFront
+- ElastiCache
+- SQS
+- SNS
+- EventBridge
 
 ---
 
@@ -80,18 +81,40 @@
 - OpenTelemetry
 - Alerting Strategies
 - SLI, SLO and SLA
+- Distributed Tracing
+- Log Aggregation
 
 ---
 
 ### Security
 
 - Zero Trust Architecture
-- Identity and Access Management
 - Cloud Security Patterns
 - Runtime Security
 - Infrastructure Security
+- Container Security
+- Kubernetes Security Deep Dive
 
 ---
+
+### Networking
+
+- DNS Fundamentals
+- Load Balancing Deep Dive
+- CDN Fundamentals
+- Hybrid Networking
+- Service Mesh Fundamentals
+
+---
+
+### Kubernetes Advanced
+
+- Ingress Controllers
+- Helm
+- GitOps
+- Operators
+- Cluster Autoscaling
+- Multi-Cluster Architecture
 
 ## Release Milestones
 
@@ -103,6 +126,7 @@
 
 ### Upcoming
 
-- AWS Core Services Foundation
+- AWS Foundation v1.3.0
 - Observability Foundation
 - Security Foundation
+- Kubernetes Advanced Foundation

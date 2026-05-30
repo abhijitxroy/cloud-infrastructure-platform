@@ -8,6 +8,76 @@ The format is based on maintaining meaningful learning and repository milestones
 
 ---
 
+## v1.3.0 - AWS Foundation
+
+### Added
+
+#### AWS Fundamentals
+
+- AWS Global Infrastructure
+- AWS Account
+- Shared Responsibility Model
+- IAM
+- EC2
+
+#### Compute
+
+- EC2 Deep Dive
+- Load Balancer
+- Auto Scaling
+
+#### Networking
+
+- VPC
+- Subnet
+- Route Table
+- Security Group
+
+#### Storage
+
+- Amazon S3
+- Amazon EBS
+- Amazon EFS
+
+#### Databases
+
+- Amazon RDS
+- Amazon DynamoDB
+
+#### Security
+
+- AWS KMS
+- AWS Secrets Manager
+
+#### Monitoring
+
+- Amazon CloudWatch
+- AWS CloudTrail
+
+#### Certification
+
+- Cloud Computing Basics
+- Cloud Overview
+- Cloud Service Models
+- AWS Services Overview
+
+### Impact
+
+Established a comprehensive AWS foundation covering:
+
+- Core AWS Concepts
+- Compute Services
+- Networking Foundations
+- Cloud Storage
+- Database Services
+- Security Controls
+- Monitoring and Auditing
+- Cloud Architecture Fundamentals
+
+This milestone provides production-oriented AWS knowledge for cloud engineering, platform engineering, infrastructure operations, cloud-native architectures, and interview preparation.
+
+---
+
 ## v1.2.0 - Terraform Foundation
 
 ### Added

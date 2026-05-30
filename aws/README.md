@@ -259,18 +259,145 @@ This section discusses those topics only from cloud infrastructure operational a
 ## Repository Structure
 
 ```text
-aws/
-├── cloud-practitioner/
-├── compute/
-├── fundamentals/
-├── iam/
-├── networking/
-├── observability/
-├── security/
-└── storage/
+aws
+├── README.md
+├── certification
+│   └── cloud-practitioner
+│       └── cloud-computing
+├── compute
+│   ├── README.md
+│   ├── auto-scaling.md
+│   ├── ec2-deep-dive.md
+│   └── load-balancer.md
+├── databases
+│   ├── README.md
+│   ├── dynamodb.md
+│   └── rds.md
+├── fundamentals
+│   ├── README.md
+│   ├── aws-account.md
+│   ├── aws-global-infrastructure.md
+│   ├── shared-responsibility-model.md
+│   ├── IAM.md
+│   └── EC2.md
+├── monitoring
+│   ├── README.md
+│   ├── cloudtrail.md
+│   └── cloudwatch.md
+├── networking
+│   ├── README.md
+│   ├── vpc.md
+│   ├── subnet.md
+│   ├── route-table.md
+│   └── security-group.md
+├── security
+│   ├── README.md
+│   ├── kms.md
+│   └── secrets-manager.md
+└── storage
+    ├── README.md
+    ├── s3.md
+    ├── ebs.md
+    └── efs.md
 ```
 
----
+### Learning Order
+
+```text
+Fundamentals
+     ↓
+Compute
+     ↓
+Networking
+     ↓
+Storage
+     ↓
+Databases
+     ↓
+Security
+     ↓
+Monitoring
+```
+
+### Highest ROI Topics
+
+For interviews and production cloud engineering, prioritize:
+
+1. IAM
+2. EC2
+3. VPC
+4. S3
+5. Security Groups
+6. Load Balancers
+7. Auto Scaling
+8. RDS
+9. CloudWatch
+10. KMS
+
+### Topic Importance and Production Usage
+
+| Topic | Importance | Production Usage |
+|---------|------------|------------------|
+| IAM | ⭐⭐⭐⭐⭐ | Authentication, authorization, access governance, least privilege |
+| EC2 | ⭐⭐⭐⭐⭐ | Application hosting, enterprise workloads, compute platforms |
+| VPC | ⭐⭐⭐⭐⭐ | Network isolation, cloud networking foundation |
+| S3 | ⭐⭐⭐⭐⭐ | Object storage, backups, logs, data lakes |
+| Security Groups | ⭐⭐⭐⭐⭐ | Resource-level network security |
+| Load Balancers | ⭐⭐⭐⭐⭐ | Traffic distribution, high availability |
+| Auto Scaling | ⭐⭐⭐⭐⭐ | Elastic infrastructure scaling |
+| RDS | ⭐⭐⭐⭐⭐ | Relational databases for business applications |
+| CloudWatch | ⭐⭐⭐⭐ | Monitoring, alerting, operational visibility |
+| KMS | ⭐⭐⭐⭐ | Encryption and key management |
+| DynamoDB | ⭐⭐⭐⭐ | Large-scale NoSQL workloads |
+| CloudTrail | ⭐⭐⭐⭐ | Auditing, governance, compliance |
+| EBS | ⭐⭐⭐⭐ | Persistent storage for EC2 workloads |
+| S3 Glacier | ⭐⭐⭐ | Long-term archival and compliance storage |
+| EFS | ⭐⭐⭐ | Shared file storage across instances |
+
+### Service Selection Quick Guide
+
+| Requirement | Common AWS Service |
+|------------|-------------------|
+| Virtual Machines | EC2 |
+| Object Storage | S3 |
+| Shared File Storage | EFS |
+| Block Storage | EBS |
+| Relational Database | RDS |
+| NoSQL Database | DynamoDB |
+| Monitoring | CloudWatch |
+| Auditing | CloudTrail |
+| Encryption | KMS |
+| Secret Management | Secrets Manager |
+| Network Isolation | VPC |
+| Traffic Distribution | Load Balancer |
+| Automatic Scaling | Auto Scaling |
+
+### Interview Priority Order
+
+```text
+Tier 1 (Must Know)
+IAM
+EC2
+VPC
+S3
+Security Groups
+Load Balancer
+Auto Scaling
+
+Tier 2 (Frequently Asked)
+RDS
+CloudWatch
+CloudTrail
+DynamoDB
+KMS
+
+Tier 3 (Good To Know)
+EBS
+EFS
+Secrets Manager
+Storage Classes
+Shared Responsibility Model
+```
 
 ## Engineering Focus Areas
 
