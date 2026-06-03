@@ -68,6 +68,62 @@ Primary focus areas include:
 
 ---
 
+## What This Repository Does Not Cover Deeply
+
+The ecosystem intentionally avoids large-scale topic duplication across repositories.
+
+This repository references other repositories contextually instead of reteaching their primary domains.
+
+### Backend Engineering
+
+Backend application engineering, APIs, databases, messaging systems, Java engineering, and application implementation belong primarily to:
+
+- backend-engineering
+
+This repository discusses those topics only from infrastructure integration and deployment perspectives.
+
+---
+
+### Platform Engineering
+
+Internal developer platforms, developer experience engineering, engineering enablement systems, self-service platforms, and platform operational workflows belong primarily to:
+
+- platform-engineering-playbook
+
+This repository discusses those topics only from infrastructure platform and Kubernetes integration perspectives.
+
+---
+
+### DevOps and Release Engineering
+
+CI/CD systems, release engineering, GitOps operational workflows, deployment reliability, rollback engineering, and software quality engineering belong primarily to:
+
+- devops-release-quality-engineering
+
+This repository discusses those topics only from infrastructure platform and automation perspectives.
+
+---
+
+### System Design and Distributed Systems
+
+Distributed systems theory, scalability architecture, HLD/LLD, and architecture tradeoff reasoning belong primarily to:
+
+- software-architecture-system-design
+
+This repository discusses those topics only from infrastructure implementation and operational perspectives.
+
+---
+
+### AI Engineering
+
+AI agents, MCP, A2A systems, LLM engineering, AI platform workflows, and AI operational engineering belong primarily to:
+
+- ai-engineering-agents-platform
+
+This repository discusses those topics only from infrastructure hosting, deployment, scalability, observability, and operational perspectives.
+
+---
+
 ## Production Engineering Mindset
 
 Infrastructure knowledge becomes valuable when engineers understand:
