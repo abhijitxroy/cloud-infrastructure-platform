@@ -6,6 +6,23 @@ The format is based on maintaining meaningful learning and repository milestones
 
 ---
 
+## v1.11.0 - KAIC Platform
+
+### Added
+
+#### KAIC
+
+- KAIC Fundamentals and Architecture
+- Container, VM, and OpenShift Environments
+- OpenShift Provisioning and Lifecycle
+- Networking, DNS, and Telemetry
+
+### Impact
+
+Added production-oriented documentation for KAIC as an internal cloud platform for environment provisioning and management.
+
+---
+
 ## v1.10.0 - Infrastructure Foundation
 
 ### Added

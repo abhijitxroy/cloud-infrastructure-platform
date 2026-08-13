@@ -56,6 +56,8 @@ Primary focus areas include:
 - Dockerfile and Compose Workflows
 - Container Registry Engineering
 - Kubernetes Architecture and Operations
+- Internal Cloud Platforms
+- KAIC Environment Provisioning
 - Infrastructure Networking
 - Storage Engineering
 - Platform Security
@@ -198,6 +200,14 @@ cloud-infrastructure-platform
 │   ├── networking/
 │   ├── objects/
 │   ├── operations/
+│   ├── platforms/
+│   │   └── kaic/
+│   │       ├── architecture/
+│   │       ├── environments/
+│   │       ├── fundamentals/
+│   │       ├── lifecycle/
+│   │       ├── operations/
+│   │       └── provisioning/
 │   ├── scheduling/
 │   ├── security/
 │   ├── storage/
